@@ -1,0 +1,9 @@
+{
+    "fileList" : [
+        {"dir": "test/js", "suffix": "js", "tpl": "tpl/js.tpl"},
+        {"dir": "test/css", "suffix": "css", "tpl": "tpl/css.tpl"}
+    ],
+    "activityList" : [
+        {"dir": "activity/js", "suffix": "js", "tpl": "tpl/js.tpl"}
+    ]
+}
