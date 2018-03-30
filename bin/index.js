@@ -6,7 +6,7 @@ var nunjucks = require('nunjucks')
 var colors = require('colors')
 
 program
-    .version('1.0.6')
+    .version('1.0.7')
     .option('-n, --new <filename>', '创建文件')
     .option('-k, --key <keyname>', 'mk.json配置文件对应的key值')
 
