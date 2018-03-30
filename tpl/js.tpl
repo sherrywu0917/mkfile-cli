@@ -1,7 +1,8 @@
+{% set capName = name | replace(name | first, name | first | upper, 1)%}
 import React from 'react';
 import {render} from 'react-dom';
-import {{name | capitalize }}App from '../component/{{name}}App.jsx';
+import {{capName}}App from '@/component/{{name}}App.jsx';
 import 'log-tool';
-import '../style/comm.scss';
+import '@/style/comm.scss';
 
-render(<{{name | capitalize }}App/>, document.getElementById('root'));
+render(<{{capName}}App/>, document.getElementById('root'));
